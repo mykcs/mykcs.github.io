@@ -1,6 +1,6 @@
 # Gateway Dev
 
-This is the engineering companion to the local [Wish](../wish/README.md). The shared [Dev protocol](https://github.com/mykcs/.codex/blob/main/engineering/DEV_PROTOCOL.md) owns the lifecycle; this folder explains only this redirect repository.
+This is the engineering companion to the local [Wish](../wish/README.md). The shared [Dev protocol](https://github.com/mykcs/.agents/blob/main/docs/agents/DEV_PROTOCOL.md) owns the lifecycle; this folder explains only this redirect repository.
 
 - [LATEST.md](LATEST.md): current scope and provider roles.
 - [DESIGN.md](DESIGN.md): redirect validation and hosting reasoning.
