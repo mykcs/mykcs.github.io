@@ -8,12 +8,12 @@ Before changing redirect behavior, route ownership, public copy, or the role of 
 
 - For route topology, hosting boundaries, or product-direction changes, also read docs/wish/DESIGN.md.
 - Do not read docs/wish/ARCHIVE.md by default; use it only for historical intent.
-- Shared Wish lifecycle rules live at https://github.com/mykcs/.codex/blob/main/website-governance/WISH_PROTOCOL.md.
+- Shared Wish lifecycle rules live at https://github.com/mykcs/.agents/blob/main/docs/agents/WISH_PROTOCOL.md.
 - Current owner instructions, privacy/security boundaries, executable truth, and live hosting state outrank the Wish.
 
 ## Development direction
 
-Read [`docs/dev/README.md`](docs/dev/README.md) and [`docs/dev/LATEST.md`](docs/dev/LATEST.md) before development or CI work. For redirect, hosting or provider changes, also read [`docs/dev/DESIGN.md`](docs/dev/DESIGN.md), then the redirect files and live GitHub Pages settings. Read [`docs/dev/ARCHIVE.md`](docs/dev/ARCHIVE.md) only for past decisions. The shared lifecycle is the [Dev protocol](https://github.com/mykcs/.codex/blob/main/engineering/DEV_PROTOCOL.md).
+Read [`docs/dev/README.md`](docs/dev/README.md) and [`docs/dev/LATEST.md`](docs/dev/LATEST.md) before development or CI work. For redirect, hosting or provider changes, also read [`docs/dev/DESIGN.md`](docs/dev/DESIGN.md), then the redirect files and live GitHub Pages settings. Read [`docs/dev/ARCHIVE.md`](docs/dev/ARCHIVE.md) only for past decisions. The shared lifecycle is the [Dev protocol](https://github.com/mykcs/.agents/blob/main/docs/agents/DEV_PROTOCOL.md).
 
 ## Repository boundary
 
