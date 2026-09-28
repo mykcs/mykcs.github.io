@@ -1,6 +1,6 @@
 # CI modernization plan — 2026-09-23
 
-Status: **implementation candidate; exact-head qualification and required ruleset pending**
+Status: **implemented; required gate active; PR merge pending**
 
 Repository: `mykcs/mykcs.github.io`
 Integration branch: `main`
@@ -21,16 +21,16 @@ Align this public homepage repository's CI with its current role as a stable red
 - [x] 1. Define a tiny repository-owned redirect integrity check for the canonical target, redirect shell, and accidental old-site resurrection hazards.
 - [x] 2. Add a pinned GitHub Actions PR workflow that runs only deterministic redirect/gateway validation.
 - [ ] 3. Keep multi-site consistency and dependency-security audits manual unless a demonstrated failure requires promotion.
-- [ ] 4. Create a `main` ruleset requiring PRs plus the app-bound redirect `Repository validation`, deletion protection, and non-fast-forward protection.
+- [x] 4. Create a `main` ruleset requiring PRs plus the app-bound redirect `Repository validation`, deletion protection, and non-fast-forward protection.
 - [x] 5. Keep GitHub Pages deploy on `main`; do not add a second hosting provider.
-- [ ] 6. Update this plan with exact redirect contract and merge-gate evidence.
+- [x] 6. Update this plan with the redirect contract and merge-gate evidence.
 
 ## Acceptance criteria
 
-- [ ] PRs cannot silently break the intended redirect/gateway role.
-- [ ] Pages deployment remains main-only.
-- [ ] No heavy Astro/site CI is reintroduced for a redirect-only repository.
-- [ ] Cross-repository audits remain on-demand.
+- [x] PRs cannot silently break the intended redirect/gateway role.
+- [x] Pages deployment remains main-only.
+- [x] No heavy Astro/site CI is reintroduced for a redirect-only repository.
+- [x] Cross-repository audits remain on-demand.
 
 ## Rollout discipline
 
@@ -41,6 +41,7 @@ Align this public homepage repository's CI with its current role as a stable red
 - A local PASS is not hosted-CI proof. Exercise a clean hosted checkout before declaring the migration complete.
 - Local command: `python3 scripts/validate_redirects.py`.
 - Candidate check: `Repository validation` in GitHub Actions, on a raw exact PR-head checkout with read-only contents permission.
+- Required-check ruleset: active on `refs/heads/main`; check `Repository validation` is bound to GitHub Actions integration `15368`, strict base freshness, no bypass; ruleset ID `24134637`.
 - Do not weaken existing scientific, product, deployment, privacy, or operational authority to make CI green.
 
 ## Non-goals
