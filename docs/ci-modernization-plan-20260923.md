@@ -2,7 +2,7 @@
 
 Status: **implementation candidate; exact-head qualification and required ruleset pending**
 
-Repository: `mykcs/mykcs.github.io`  
+Repository: `mykcs/mykcs.github.io`
 Integration branch: `main`
 
 ## Objective
