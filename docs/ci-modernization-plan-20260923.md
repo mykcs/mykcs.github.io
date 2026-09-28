@@ -11,7 +11,7 @@ Align this public homepage repository's CI with its current role as a stable red
 
 ## Current state verified before this PR
 
-- Main deploys the `github-pages-redirect/` shell to GitHub Pages.
+- GitHub Pages publishes the tracked root files from `main:/`, including the six redirect HTML routes and `404.html`.
 - Cross-site consistency and dependency security workflows are manual by design.
 - There is currently no branch ruleset or PR correctness gate.
 
