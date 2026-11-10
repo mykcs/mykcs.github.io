@@ -27,3 +27,7 @@ Read [`docs/dev/README.md`](docs/dev/README.md) and [`docs/dev/LATEST.md`](docs/
 - Current canonical/indexable homepage: https://wangrui92.pages.dev.
 - Redirect directly to the canonical serving host; do not route through another compatibility gateway.
 - Known homepage routes may preserve their matching path.
+
+## Current | 多 Agent 接手
+
+新 Agent 先读 [Current](docs/agents/current/README.md)，重新核对 GitHub 的实时 Issues、PR 和默认分支；Current 只负责恢复上下文，不取代现有 Wish/Dev、科研或发布规则。
