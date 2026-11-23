@@ -12,7 +12,7 @@ mykcs.github.io 只做一件事：
 
 - Public compatibility gateway: mykcs/mykcs.github.io
 - Private full source: mykcs/personal-homepage
-- Canonical/indexable serving host: https://wangrui92.pages.dev
+- Canonical/indexable serving host: https://wangrui92.vercel.app
 - Academic compatibility gateway: https://wangrui2025.github.io
 
 ## L2 — 路由
