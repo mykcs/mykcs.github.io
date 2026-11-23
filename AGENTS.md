@@ -24,7 +24,7 @@ Read [`docs/dev/README.md`](docs/dev/README.md) and [`docs/dev/LATEST.md`](docs/
 - Keep this repository public-safe and redirect-only.
 - Do not copy the Astro application, private Git history, internal DEV tooling, credentials, unpublished material, or private assets here.
 - Full homepage source authority: private repository mykcs/personal-homepage.
-- Current canonical/indexable homepage: https://wangrui92.pages.dev.
+- Current canonical/indexable homepage: https://wangrui92.vercel.app.
 - Redirect directly to the canonical serving host; do not route through another compatibility gateway.
 - Known homepage routes may preserve their matching path.
 
